@@ -1,0 +1,4 @@
+baseURL = "http://cyclomatic.dev/"
+languageCode = "en-us"
+title = "Cyclomatic"
+
