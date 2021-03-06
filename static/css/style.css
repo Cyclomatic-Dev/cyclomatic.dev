@@ -1,0 +1,28 @@
+.top-cross{
+    background-color: hsl(198, 86%, 51%);
+    height: 25%;
+    
+}
+
+.side-bar{
+    background-color: hsl(198, 78%, 27%);
+    padding: 0;
+    
+}
+
+.content-body{
+    background-color: hsl(45, 14%, 87%);
+    padding: 0; 
+}
+
+
+#left{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+#right{
+    clip-path: polygon(0 0, 100% 0, 20% 0, 0 100%);
+}
+
+#top-cross-wrap{
+    
+}

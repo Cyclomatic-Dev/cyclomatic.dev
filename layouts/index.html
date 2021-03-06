@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;">
   {{ partial "head" . }}
-  <body>
-    <div class="columns">
-      <div class="column has-background-primary is-2" style="height: 100%;">
-        <p></p>
-      </div>
-      <div class="column has-background-warning is-10" style="height: 100%;">
-        <p></p>
-      </div>
+  <body style="height: 100%; margin: 0;">
+      <div class="columns" style="height: 100%; margin: 0;">
+        <div class="column is-2 side-bar">
+          <div class="top-cross" id="left">
+
+          </div>
+        </div>
+        <div class="column content-body" >
+            <div class="top-cross" id="right" style="height: 12.5%;">
+            </div>
+        </div>
     </div>
   </body>
 </html>
