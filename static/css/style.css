@@ -3,26 +3,35 @@
     height: 25%;
     
 }
-
 .side-bar{
     background-color: hsl(198, 78%, 27%);
     padding: 0;
     
 }
-
 .content-body{
     background-color: hsl(45, 14%, 87%);
     padding: 0; 
 }
 
 
+
 #left{
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+    filter: drop-shadow(10px 10px 10px black);
+    padding-top: 7.5%;
+    font-size: 2rem;
+    
 }
 #right{
     clip-path: polygon(0 0, 100% 0, 20% 0, 0 100%);
 }
 
-#top-cross-wrap{
-    
+#top-cross-shadow{
+    height: 100%;
+    filter: drop-shadow(40px -25px 15px hsla(0, 0%, 11%, 1));
+}
+#title{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
 }
